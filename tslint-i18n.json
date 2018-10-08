@@ -1,0 +1,7 @@
+{
+    "rulesDirectory": "./rules",
+    "rules": {
+        "i18n-no-literal": true,
+        "i18n-no-non-existent-key": true
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "rules": {
+        "i18n-no-non-existent-key": true
+    }
+}

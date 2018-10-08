@@ -1,0 +1,10 @@
+function render(){
+  return(
+    <Foo readOnly={true} />
+    <Foo readOnly />
+         ~~~~~~~~ [Value must be set for boolean attributes]
+    <Foo readOnly bar />
+         ~~~~~~~~ [Value must be set for boolean attributes]
+                  ~~~ [Value must be set for boolean attributes]
+  );
+}
